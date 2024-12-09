@@ -18,7 +18,7 @@ public class ClueMap {
 
 
 
-    private String checkLocation (int xPosition,  int yPosition){
+    public static String checkLocation (){
         if (xPosition>= -10 && xPosition<= -4 && yPosition<=10 && yPosition>=5){
             return("Kitchen");}
         if (xPosition>=-3 && xPosition<=1 && yPosition<=8 && yPosition>=3) {
